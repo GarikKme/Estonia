@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Document</title>
+	<meta name="description" content="Описание страницы">
+	<meta name="keywords" content="ключевые, слова, через, запятую">
+	<!-- Favicon -->
+	<link rel="icon" href="">
+	<link rel="shortcut icon" href="">
+	<!-- OG Tags -->
+	<meta property="og:title" content="">
+	<meta property="og:description" content=''>
+	<meta property="og:type" content="article">
+	<meta property="og:image" content="">
+	<meta property="og:site_name" content="TEST">
+	<!-- Bootstrap Reboot CSS -->
+	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="fa/fontawesome-all.min.css" />
+	<!-- Main CSS -->
+	<link rel="stylesheet" href="css/jquery.arcticmodal-0.3.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
+	<link rel="stylesheet" href="fonts/stylesheet.css">
+	<link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+	<!-- Header  -->
+	<header class="header-pricing" id="header">
+		<div class="container">
+			<div class="header-nav d-flex justify-content-between align-items-center">
+				<div class="header__phone d-none d-lg-block">
+					<a href="tel:+3726027075"><i class="fa fa-phone fa-rotate-90" aria-hidden="true"></i>
+						+372 602 70 75</a>
+				</div>
+				<div class="lang d-flex">
+					<span>EN</span>
+					<div class="lang__arrow"></div>
+					<div class="lang__tooltip">RU</div>
+				</div>
+				<nav class="header__navBox">
+					<ul class="menu">
+						<li><a href="/" class="menu__item">Home</a></li>
+						<li><a href="pricing.html" class="menu__item">Pricing</a></li>
+						<li><a href="services.html" class="menu__item">Corporate services</a></li>
+						<li><a href="FAQ.html" class="menu__item">FAQ</a></li>
+						<li><a href="contact.html" class="menu__item">Contact us</a></li>
+					</ul>
+					<div class="header-links d-block d-lg-none">
+						<a href="#"><i class="fas fa-envelope"></i></a>
+						<a href="#"><i class="fab fa-facebook-f"></i></a>
+					</div>
+					<div class="header-question d-block d-lg-none">
+						<a href="#start" class="header-question__link">
+							Ask a question
+						</a>
+					</div>
+				</nav>
+				<div class="header-links d-none d-lg-block">
+					<a href="#"><i class="fas fa-envelope"></i></a>
+					<a href="order.html"><i class="fab fa-facebook-f"></i></a>
+				</div>
+				<div class="header-question d-none d-lg-block">
+					<a href="#start" class="header-question__link">
+						Ask a question
+					</a>
+				</div>
+				<div class="header-logo order-first order-lg-last">
+					<a href="#">
+						<img src="img/Logo.svg" alt="attest advisory" class="img-fluid">
+					</a>
+				</div>
+				<button class="menu-icon d-lg-none order-last">
+					<img src="img/menu-icon.png" alt="menu button" class="img-fluid">
+				</button>
+			</div>
+		</div>
+	</header>
+	<!--End of the header -->
+	<!--Order -->
+	<section class="page-order" id="page-order">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-7">
+					<h2 class="pricing__title page-order__title">
+						<span>Order</span> warehousing companies in Estonia
+					</h2>
+				</div>
+				<div class="col-lg-12">
+					<p class="pricing__text pricing__text_order">
+						Fill in all the fields of the form and find out<br>
+						the exact cost
+					</p>
+				</div>
+			</div>
+			<div class="forms-wrap d-none d-md-block">
+				<form action="#" method="post" class="page-order__form">
+					<div class="form-left__block">
+						<div class="form-left__block_wrap">
+							<h5 class="page-order__form_title">Name a company</h5>
+							<img src="img/left-block-img.svg" alt="Company name" class="img-fluid">
+						</div>
+						<p class="form-left__block_text">You can assign any desired company name</p>
+						<textarea name="" id="" cols="46" rows="5" class="textarea"></textarea>
+						<div class="block-info d-flex align-items-center">
+							<i class="fas fa-info-circle"></i>
+							<div class="info-block">Company names must be clearly distinguished from the names and trademarks of other
+								registered
+								companies. Also remember that the letter å is not used in Estonia.</div>
+							<a href="#" class="form__info">
+								More info
+							</a>
+						</div>
+					</div>
+					<div class="form-right__block all-forms">
+						<div class="form-left__block_wrap">
+							<h5 class="page-order__form_title">Director’s/ partner’s<br> information</h5>
+							<img src="img/right-block-img.svg" alt="Company name" class="img-fluid">
+						</div>
+						<div class="clone-form cloned-inputs">
+							<div class="dp-block__radio">
+								<input type="radio" class="left-column-input" name="radio" id="radio">
+								<label for="radio" class="left-column-label">Co-owner</label>
+								<input type="radio" class="left-column-input" name="radio" id="radio1">
+								<label for="radio1" class="left-column-label marg">Board member</label>
+							</div>
+							<div class="dp-block">
+								<div class="left-column">
+									<input type="text" name="name" id="" class="order-form-input" placeholder="Your name">
+									<input type="text" name="name" id="" class="order-form-input" placeholder="Personal data">
+									<input type="tel" name="name" id="" class="order-form-input" placeholder="Phone number">
+									<input type="text" name="" id="" class="order-form-input" placeholder="Stake in company, %">
+								</div>
+								<div class="left-column">
+									<input type="text" name="name" id="" class="order-form-input" placeholder="Your surname">
+									<input type="text" name="name" id="" class="order-form-input" placeholder="Address">
+									<input type="email" name="name" id="" class="order-form-input" placeholder="E-mail">
+									<div class="fl_upld">
+										<label><input id="fl_inp" type="file" class="order-form-input" name="file">Attach a copy of your
+											passport</label>
+									</div>
+								</div>
+							</div>
+							<a href="/" class="removePerson"><img src="img/minusbtn.svg" alt="minus"
+								class="img-fluid plus">Delete this person</a>
+						</div>
+						<div
+							class="block-info d-flex flex-column flex-lg-row align-items-lg-center justify-content-start justify-content-lg-between">
+							<div class="order-last order-lg-first">
+								<i class="fas fa-info-circle"></i>
+								<div class="info-block first-right">Company names must be clearly distinguished from the names and
+									trademarks of other registered
+									companies. Also remember that the letter å is not used in Estonia.</div>
+								<a href="#" class="form__info">
+									More info
+								</a>
+							</div>
+							<a href="" class="addNewPerson order-first order-lg-last"> <img src="img/plusbtn.svg" alt="plus"
+									class="img-fluid plus"> Add a new
+								person</a>
+						</div>
+					</div>
+				</form>
+				<form action="#" method="post" class="page-order__form down">
+					<div class="form-left__block">
+						<div class="form-left__block_wrap">
+							<h5 class="page-order__form_title">Contact person in Estonia for 1 year</h5>
+							<img src="img/Geolocation.svg" alt="Estonia" class="img-fluid">
+						</div>
+						<p class="form-left__block_text">Choose the option that is right for<br> you</p>
+						<input type="radio" class="left-column-input" name="radio" id="radio2">
+						<label for="radio2" class="left-column-label">I would like to use your contact person service</label>
+						<input type="radio" class="left-column-input" name="radio" id="radio3">
+						<label for="radio3" class="left-column-label">I have a contact person in Estonia</label>
+						<input type="text" name="number" id="" class="order-form-input number"
+							placeholder="Registration code of this person">
+						<input type="radio" class="left-column-input" name="radio" id="radio4">
+						<label for="radio4" class="left-column-label lab">not needed because the management board is located in
+							Estonia</label>
+						<div class="block-info d-flex align-items-center">
+							<i class="fas fa-info-circle"></i>
+							<div class="info-block info-block__down">Company names must be clearly distinguished from the names and
+								trademarks of other registered
+								companies. Also remember that the letter å is not used in Estonia.</div>
+							<a href="#" class="form__info">
+								More info
+							</a>
+						</div>
+					</div>
+					<div class="form-right__block">
+						<div class="form-left__block_wrap">
+							<h5 class="page-order__form_title">Additional comments</h5>
+							<img src="img/comment.svg" alt="Comment" class="img-fluid">
+						</div>
+						<p class="form-left__block_text">Your special requests</p>
+						<textarea name="" id="" cols="43" rows="5" class="textarea right-down__block"></textarea>
+						<div class="block-info d-flex align-items-center">
+							<i class="fas fa-info-circle"></i>
+							<div class="info-block info-block__right-down">Company names must be clearly distinguished from the names
+								and trademarks of other registered
+								companies. Also remember that the letter å is not used in Estonia.</div>
+							<a href="#" class="form__info">
+								More info
+							</a>
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="forms-wrap d-block d-md-none">
+				<form action="#" method="post" class="page-order__form">
+					<div class="form-left__block">
+						<div class="form-left__block_wrap">
+							<h5 class="page-order__form_title">Name a company</h5>
+							<img src="img/left-block-img.svg" alt="Company name" class="img-fluid">
+						</div>
+						<p class="form-left__block_text">You can assign any desired company name</p>
+						<textarea name="" id="" cols="46" rows="5" class="textarea"></textarea>
+						<div class="block-info">
+							<i class="fas fa-info-circle"></i>
+							<div class="info-block">Company names must be clearly distinguished from the names and trademarks of other
+								registered
+								companies. Also remember that the letter å is not used in Estonia.</div>
+							<a href="#" class="form__info">
+								More info
+							</a>
+						</div>
+					</div>
+				</form>
+				<form action="#" method="post" class="page-order__form">
+					<div class="form-right__block all-forms1">
+						<div class="form-left__block_wrap">
+							<h5 class="page-order__form_title">Director’s/ partner’s<br> information</h5>
+							<img src="img/right-block-img.svg" alt="Company name" class="img-fluid">
+						</div>
+						<div class="clone-form1 cloned-inputs1">
+							<div class="dp-block__radio">
+								<input type="radio" class="left-column-input" name="radio" id="radio">
+								<label for="radio" class="left-column-label">Co-owner</label>
+								<input type="radio" class="left-column-input" name="radio" id="radio1">
+								<label for="radio1" class="left-column-label marg">Board member</label>
+							</div>
+							<div class="dp-block">
+								<div class="left-column">
+									<input type="text" name="name" id="" class="order-form-input" placeholder="Your name">
+									<input type="text" name="name" id="" class="order-form-input" placeholder="Personal data">
+									<input type="tel" name="name" id="" class="order-form-input" placeholder="Phone number">
+									<input type="text" name="" id="" class="order-form-input" placeholder="Stake in company, %">
+								</div>
+								<div class="left-column">
+									<input type="text" name="name" id="" class="order-form-input" placeholder="Your surname">
+									<input type="text" name="name" id="" class="order-form-input" placeholder="Address">
+									<input type="email" name="name" id="" class="order-form-input" placeholder="E-mail">
+									<div class="fl_upld">
+										<label><input id="fl_inp" type="file" class="order-form-input" name="file">Attach a copy of your
+											passport</label>
+									</div>
+								</div>
+							</div>
+							<a href="/" class="removePerson1">Delete this person<img src="img/minusbtn.svg" alt="minus"
+								class="img-fluid plus"></a>
+						</div>
+						<div
+							class="block-info d-flex flex-column flex-lg-row align-items-lg-center justify-content-start justify-content-lg-between">
+							<div class="order-last order-lg-first">
+								<i class="fas fa-info-circle"></i>
+								<div class="info-block first-right">Company names must be clearly distinguished from the names and
+									trademarks of other registered
+									companies. Also remember that the letter å is not used in Estonia.</div>
+								<a href="#" class="form__info">
+									More info
+								</a>
+							</div>
+							<a href="" class="addNewPerson1 order-first order-lg-last"> <img src="img/plusbtn.svg" alt="plus"
+									class="img-fluid plus"> Add a new
+								person</a>
+						</div>
+					</div>
+				</form>
+				<form action="#" method="post" class="page-order__form down">
+					<div class="form-left__block">
+						<div class="form-left__block_wrap">
+							<h5 class="page-order__form_title">Contact person in Estonia for 1 year</h5>
+							<img src="img/Geolocation.svg" alt="Estonia" class="img-fluid">
+						</div>
+						<p class="form-left__block_text">Choose the option that is right for<br> you</p>
+						<input type="radio" class="left-column-input" name="radio" id="radio2">
+						<label for="radio2" class="left-column-label">I would like to use your contact person service</label>
+						<input type="radio" class="left-column-input" name="radio" id="radio3">
+						<label for="radio3" class="left-column-label">I have a contact person in Estonia</label>
+						<input type="text" name="number" id="" class="order-form-input number"
+							placeholder="Registration code of this person">
+						<input type="radio" class="left-column-input" name="radio" id="radio4">
+						<label for="radio4" class="left-column-label lab">not needed because the management board is located in
+							Estonia</label>
+						<div class="block-info d-flex align-items-center">
+							<i class="fas fa-info-circle"></i>
+							<div class="info-block info-block__down">Company names must be clearly distinguished from the names and
+								trademarks of other registered
+								companies. Also remember that the letter å is not used in Estonia.</div>
+							<a href="#" class="form__info">
+								More info
+							</a>
+						</div>
+					</div>
+				</form>
+				<form action="#" method="post" class="page-order__form">
+					<div class="form-right__block">
+						<div class="form-left__block_wrap">
+							<h5 class="page-order__form_title">Additional comments</h5>
+							<img src="img/comment.svg" alt="Comment" class="img-fluid">
+						</div>
+						<p class="form-left__block_text">Your special requests</p>
+						<textarea name="" id="" cols="43" rows="5" class="textarea right-down__block"></textarea>
+						<div class="block-info d-flex align-items-center">
+							<i class="fas fa-info-circle"></i>
+							<div class="info-block info-block__right-down">Company names must be clearly distinguished from the names
+								and trademarks of other registered
+								companies. Also remember that the letter å is not used in Estonia.</div>
+							<a href="#" class="form__info">
+								More info
+							</a>
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="calculation">
+				<h2 class="pricing-contact__title pricing-contact__title_order text-center text-lg-left">
+					<span></span>Calculation the cost
+					of the services
+				</h2>
+				<div class="calculation-wrap">
+					<div class="base-cost">
+						<div class="d-flex align-items-center">
+							<p class="base-cost__text">320</p><img src="img/euro-blue2.svg" alt="euro" class="img-fluid">
+						</div>
+						<p class="base-cost__text1">Base cost</p>
+					</div>
+					<img src="img/calcplus.png" alt="plus" class="img-fluid">
+					<div class="base-cost">
+						<div class="d-flex align-items-center">
+							<p class="base-cost__text">200</p><img src="img/euro-blue2.svg" alt="euro" class="img-fluid">
+						</div>
+						<p class="base-cost__text1">Contact person
+						</p>
+					</div>
+					<div class="total-cost">
+						<div class="d-flex align-items-center">
+							<p class="total-cost__text">520</p><img src="img/euro-dark.svg" alt="euro" class="img-fluid">
+						</div>
+						<p class="total-cost__text1">Total
+						</p>
+					</div>
+				</div>
+				<button class="order__btn button">Send order</button>
+			</div>
+		</div>
+	</section>
+	<!-- Footer -->
+	<footer class="footer" id="footer">
+		<div class="container">
+			<div class="footer-wrap d-flex justify-content-between">
+				<div class="footer-first__block d-flex justify-content-center order-1 order-sm-1">
+					<div class="footer__img order-sm-0"></div>
+					<div class="footer-menu d-flex ">
+						<p class="footer-menu__text">MENU</p>
+						<ul class="footer-menu__links d-flex flex-column">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Bank account</a></li>
+							<li><a href="#">Corporate services</a></li>
+							<li><a href="#">FAQ</a></li>
+							<li><a href="#">Contact us</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer-credits order-0 order-sm-2">
+					<a href="#" class="footer-logo"><img src="img/footer-logo.svg" alt="Attest advisory" class="img-fluid"></a>
+					<p class="footer-credits__text">© 2019 / attest advisory</p>
+					<div class="footer-links">
+						<a href="#"><i class="fas fa-envelope"></i></a>
+						<a href="#"><i class="fab fa-facebook-f"></i></a>
+					</div>
+				</div>
+				<div class="footer-second__block d-flex justify-content-center order-2 order-sm-3">
+					<div class="footer-contact ">
+						<i class="fa fa-phone fa-rotate-90" aria-hidden="true"></i>
+						<a href="tel:+3726027075" class="footer__phone">
+							+372 602 70 75</a>
+						<div class="header-question">
+							<a href="#" class="header-question__link">
+								Ask a question
+							</a>
+						</div>
+						<div class="lang d-flex">
+							<span>EN</span>
+							<div class="lang__arrow"></div>
+							<div class="lang__tooltip">RU</div>
+						</div>
+					</div>
+					<div class="footer__img order-sm-4"></div>
+				</div>
+			</div>
+		</div>
+	</footer><!-- End of the Footer -->
+	<!-- JS Scripts -->
+
+	<script src="js/jquery-3.4.0.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.com/libraries/fullPage.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
